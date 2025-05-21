@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1643757522846516}
+  m_IsPrefabParent: 1
+--- !u!1 &1643757522846516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4605421972026456}
+  - component: {fileID: 33759534103469004}
+  - component: {fileID: 64807515522997554}
+  - component: {fileID: 23060764040402142}
+  - component: {fileID: 114912702115476056}
+  m_Layer: 0
+  m_Name: MyCard
+  m_TagString: MyCard
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4605421972026456
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1643757522846516}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.955157, y: -3.7, z: 8.49}
+  m_LocalScale: {x: 1.79302, y: 2.5462835, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23060764040402142
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1643757522846516}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 128bddbb2347325449c2c18e5df8f858, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33759534103469004
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1643757522846516}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &64807515522997554
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1643757522846516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114912702115476056
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1643757522846516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0ebc0d010e12244b065e6bae26eead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NumberTexture:
+  - {fileID: 2800000, guid: 90fb271493d758e428d2edf7d4b21059, type: 3}
+  - {fileID: 2800000, guid: f7486a9ed13c76c40addf44a2ff19dde, type: 3}
+  - {fileID: 2800000, guid: cfd3673537282e14081753e6ecdb6ff3, type: 3}
+  - {fileID: 2800000, guid: 233b6d07482aa1647849e72e6764bd36, type: 3}
+  - {fileID: 2800000, guid: eac474f34b3fe2549b9cd185db4ef782, type: 3}
+  - {fileID: 2800000, guid: d413dfc326898d04a87d6f46e571434a, type: 3}
+  - {fileID: 2800000, guid: 2714756c90b6fb14da991ed126c80dfb, type: 3}
+  - {fileID: 2800000, guid: 7e8755003f3063649b7c0f2b645962be, type: 3}
+  - {fileID: 2800000, guid: 1b6298d688fdd09489baee6d94baa042, type: 3}
+  - {fileID: 2800000, guid: c33a3b03eee429440bdfc0d6acb887df, type: 3}
+  - {fileID: 2800000, guid: cf6035f1d69789a44b8bae792d8a2ec7, type: 3}
+  - {fileID: 2800000, guid: 54e3547cf02231a4ea697c1518a13480, type: 3}
+  - {fileID: 2800000, guid: 6e9363d9e91f053479e6dd9011262684, type: 3}
+  - {fileID: 2800000, guid: 39604dafe3e673042a84525c5dae59fa, type: 3}
+  cardcode: 0

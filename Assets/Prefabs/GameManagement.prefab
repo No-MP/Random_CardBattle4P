@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1681576453703604}
+  m_IsPrefabAsset: 1
+--- !u!1 &1681576453703604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4167863634274676}
+  - component: {fileID: 114122494504152046}
+  m_Layer: 0
+  m_Name: GameManagement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4167863634274676
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1681576453703604}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114122494504152046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1681576453703604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16d937db465415e4ba3dc64607b52184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tcp: {fileID: 114966394397804380, guid: 85b0d7b09db2ebc40b7a6a4f964eb4ea, type: 2}
+  CardColor_Images:
+  - {fileID: 2800000, guid: b14a52976091c774ca0be75c6389be94, type: 3}
+  - {fileID: 2800000, guid: caa7714e36dad70498ed3078f8db07da, type: 3}
+  - {fileID: 2800000, guid: 710163808ee235c47a044527aaff381d, type: 3}
+  - {fileID: 2800000, guid: bccca66529d8bcc43bcc4b826c17506f, type: 3}
+  NumberCard_Images:
+  - {fileID: 2800000, guid: 90fb271493d758e428d2edf7d4b21059, type: 3}
+  - {fileID: 2800000, guid: f7486a9ed13c76c40addf44a2ff19dde, type: 3}
+  - {fileID: 2800000, guid: cfd3673537282e14081753e6ecdb6ff3, type: 3}
+  - {fileID: 2800000, guid: 233b6d07482aa1647849e72e6764bd36, type: 3}
+  - {fileID: 2800000, guid: eac474f34b3fe2549b9cd185db4ef782, type: 3}
+  - {fileID: 2800000, guid: d413dfc326898d04a87d6f46e571434a, type: 3}
+  - {fileID: 2800000, guid: 2714756c90b6fb14da991ed126c80dfb, type: 3}
+  - {fileID: 2800000, guid: 7e8755003f3063649b7c0f2b645962be, type: 3}
+  - {fileID: 2800000, guid: 1b6298d688fdd09489baee6d94baa042, type: 3}
+  - {fileID: 2800000, guid: c33a3b03eee429440bdfc0d6acb887df, type: 3}
+  - {fileID: 2800000, guid: cf6035f1d69789a44b8bae792d8a2ec7, type: 3}
+  - {fileID: 2800000, guid: 54e3547cf02231a4ea697c1518a13480, type: 3}
+  - {fileID: 2800000, guid: 6e9363d9e91f053479e6dd9011262684, type: 3}
+  - {fileID: 2800000, guid: 39604dafe3e673042a84525c5dae59fa, type: 3}
+  PlayerHPs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  P1Panel: {fileID: 0}
+  P2Panel: {fileID: 0}
+  P3Panel: {fileID: 0}
+  P4Panel: {fileID: 0}
+  Board: {fileID: 0}
+  QueenButton:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  GameOver: {fileID: 0}
+  currentdamage: {fileID: 0}
+  addeddamage: {fileID: 0}
